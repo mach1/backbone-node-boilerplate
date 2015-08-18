@@ -1,0 +1,35 @@
+body {
+  background: #eee;
+}
+
+.container {
+  background: #fff;
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: 10px 10px 5px #888;
+}
+
+.main-block {
+  padding: 30px;
+}
+
+.tab-header {
+  border: 1px solid black;
+  border-radius: 7px 7px 0 0px;
+  padding: 10px;
+  display: inline-block;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0;
+}
+
+.tab-header:hover {
+  background: #888;
+}
+
+.tabs-content {
+  border: 1px solid black;
+}

@@ -17,6 +17,7 @@ app = express()
 app.use bodyParser.urlencoded( extended: true )
 app.use bodyParser.json()
 app.use morgan('combined')
+app.use express.static(__dirname + "/../dist")
 
 port = process.env.PORT || 3000
 
