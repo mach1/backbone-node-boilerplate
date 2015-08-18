@@ -1,0 +1,39 @@
+{
+  "name": "backbone-node-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for server and web application",
+  "main": "main.coffee",
+  "scripts": {
+    "start": "coffee server/server.coffee",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mach1/backbone-node-boilerplate.git"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "backbone",
+    "marionette",
+    "gulp",
+    "browserify",
+    "mongoose"
+  ],
+  "author": "Jaan Lambert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mach1/backbone-node-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mach1/backbone-node-boilerplate#readme",
+  "devDependencies": {
+    "body-parser": "^1.13.3",
+    "coffee-script": "^1.9.3",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "mongoose": "^4.1.3",
+    "morgan": "^1.6.1",
+    "node-uuid": "^1.4.3"
+  }
+}
